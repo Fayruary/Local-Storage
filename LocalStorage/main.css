@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #b6c5d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .card {
+    background: #d4dedf;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+
+  h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border 0.3s;
+  }
+
+  input[type="text"]:focus {
+    border-color: #007BFF;
+    outline: none;
+  }
+
+  button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+
+  button[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+  }
+
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+  #deleteButton {
+    background-color: #e74c3c;
+    color: white;
+    display: none;
+  }
+
+  #deleteButton:hover {
+    background-color: #c0392b;
+  }
+
+  #displayName {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #444;
+  }
